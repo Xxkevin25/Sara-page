@@ -1,0 +1,134 @@
+.navbar {
+    background: #1a2980;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1a2980, #26d0ce);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1a2980, #26d0ce);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.589);
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+a{
+    color: black !important;
+}
+
+#btn-secondary {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(344deg, rgba(63, 94, 251, 1) 0%, rgba(70, 252, 226, 1) 100%);
+    border: none;
+}
+
+#btn-secondary:focus-within {
+    box-shadow: none;
+}
+
+#btn-secondary:active {
+    box-shadow: none;
+}
+
+#btn-secondary:hover {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(344deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+#logo {
+    width: 55px;
+    height: 55px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.container-mouse {
+    display: flex;
+    background: #ffffff94;
+}
+
+.main-mouse {
+    margin: 0 auto;
+    height: 75px;
+    width: 75px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    animation: sara 2s alternate infinite ease-in-out;
+}
+
+.custom-shape-divider-bottom-1629163611 {
+    position: absolute;
+    bottom: -103px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1629163611 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1629163611 .shape-fill {
+    fill: #FFFFFF;
+}
+
+p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(344deg, rgba(238, 174, 202, 1) 0%, rgba(43, 129, 231, 1) 100%);
+    padding: 60px 0 30px 0;
+    margin-top: 5mm;
+}
+
+
+.contenedor-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.contenedor-foo {
+    text-align: center;
+}
+
+.contenedor-foo h4 {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.contenedor-foo p {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+
+.Name {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes sara {
+    0% {}
+
+    100% {
+        transform: translateY(-22px);
+    }
+}
